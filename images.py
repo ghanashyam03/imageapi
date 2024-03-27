@@ -2,8 +2,8 @@ import os
 import requests
 
 # Set your Google Custom Search Engine (CSE) API key and search engine ID
-API_KEY = 'AIzaSyBDUMOApq4Ryn0WfojE5SfQoKDME7bXQPg'
-SEARCH_ENGINE_ID = '70e6e169a1b3342a1'
+API_KEY = ''
+SEARCH_ENGINE_ID = ''
 
 def get_image_urls(query, num_images=3):
     base_url = 'https://www.googleapis.com/customsearch/v1'
